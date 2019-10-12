@@ -1,0 +1,807 @@
+Microsoft Windows [Version 10.0.16299.98]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+E:\Code\Java\ReactNative>expo init HelloWorld
+? Choose a template: expo-template-blank-typescript
+√ Please enter a few initial configuration values.
+  Read more: https://docs.expo.io/versions/latest/workflow/configuration/ · 100% completed
+Extracting project files...
+Customizing project...
+Initialized a git repository.
+Installing dependencies...
+npm WARN deprecated deep-assign@3.0.0: Check out `lodash.merge` or `merge-options` instead.
+npm WARN deprecated core-js@1.2.7: core-js@<2.6.8 is no longer maintained. Please, upgrade to core-js@3 or at least to actual version of core-js@2.
+npm WARN tarball tarball data for typescript@^3.4.5 (sha512-lmQ4L+J6mnu3xweP8+rOrUwzmN+MRAj7TgtJtDaXE5PMyX2kCrklhg3rvOsOIfNeAWMQWO2F1GPc1kMD2vLAfw==) seems to be corrupted. Trying one more time.
+npm ERR! path E:\Code\Java\ReactNative\HelloWorld\node_modules\.staging\typescript-7ba0c366\lib\tsserver.js
+npm ERR! code EPERM
+npm ERR! errno -4048
+npm ERR! syscall unlink
+npm ERR! Error: EPERM: operation not permitted, unlink 'E:\Code\Java\ReactNative\HelloWorld\node_modules\.staging\typescript-7ba0c366\lib\tsserver.js'
+npm ERR!  { [Error: EPERM: operation not permitted, unlink 'E:\Code\Java\ReactNative\HelloWorld\node_modules\.staging\typescript-7ba0c366\lib\tsserver.js']
+npm ERR!   cause:
+npm ERR!    { Error: EPERM: operation not permitted, unlink 'E:\Code\Java\ReactNative\HelloWorld\node_modules\.staging\typescript-7ba0c366\lib\tsserver.js'
+npm ERR!      errno: -4048,
+npm ERR!      code: 'EPERM',
+npm ERR!      syscall: 'unlink',
+npm ERR!      path:
+npm ERR!       'E:\\Code\\Java\\ReactNative\\HelloWorld\\node_modules\\.staging\\typescript-7ba0c366\\lib\\tsserver.js' },
+npm ERR!   stack:
+npm ERR!    'Error: EPERM: operation not permitted, unlink \'E:\\Code\\Java\\ReactNative\\HelloWorld\\node_modules\\.staging\\typescript-7ba0c366\\lib\\tsserver.js\'',
+npm ERR!   errno: -4048,
+npm ERR!   code: 'EPERM',
+npm ERR!   syscall: 'unlink',
+npm ERR!   path:
+npm ERR!    'E:\\Code\\Java\\ReactNative\\HelloWorld\\node_modules\\.staging\\typescript-7ba0c366\\lib\\tsserver.js' }
+npm ERR!
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It's possible that the file was already in use (by a text editor or antivirus),
+npm ERR! or that you lack permissions to access it.
+npm ERR!
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator (though this is not recommended).
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Pritam\AppData\Roaming\npm-cache\_logs\2019-09-07T06_53_23_418Z-debug.log
+npm exited with non-zero code: 4294963248
+Set EXPO_DEBUG=true in your env to view the stack trace.
+
+E:\Code\Java\ReactNative>expo init HelloWorld
+? Choose a template: expo-template-blank
+√ Please enter a few initial configuration values.
+  Read more: https://docs.expo.io/versions/latest/workflow/configuration/ · 100% completed
+Extracting project files...
+Customizing project...
+Initialized a git repository.
+Installing dependencies...
+npm WARN deprecated deep-assign@3.0.0: Check out `lodash.merge` or `merge-options` instead.
+npm WARN deprecated core-js@1.2.7: core-js@<2.6.8 is no longer maintained. Please, upgrade to core-js@3 or at least to actual version of core-js@2.
+
+> core-js@2.6.9 postinstall E:\Code\Java\ReactNative\HelloWorld\node_modules\fbjs-scripts\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> core-js@2.6.9 postinstall E:\Code\Java\ReactNative\HelloWorld\node_modules\metro-babel-register\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> core-js@2.6.9 postinstall E:\Code\Java\ReactNative\HelloWorld\node_modules\metro\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> core-js@2.6.9 postinstall E:\Code\Java\ReactNative\HelloWorld\node_modules\react-native-web\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> core-js@2.6.9 postinstall E:\Code\Java\ReactNative\HelloWorld\node_modules\react-native\node_modules\core-js
+> node scripts/postinstall || echo "ignore"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 783 packages from 428 contributors and audited 37662 packages in 373.137s
+found 11 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+Your project is ready at E:\Code\Java\ReactNative\HelloWorld
+
+To get started, you can type:
+
+  cd HelloWorld
+  npm start
+
+
+E:\Code\Java\ReactNative>cd HelloWorld
+
+E:\Code\Java\ReactNative\HelloWorld>npm start
+
+> @ start E:\Code\Java\ReactNative\HelloWorld
+> expo start
+
+Starting project at E:\Code\Java\ReactNative\HelloWorld
+Expo DevTools is running at http://localhost:19002
+Opening DevTools in the browser... (press shift-d to disable)
+Starting Metro Bundler on port 19001.
+Successfully ran `adb reverse`. Localhost URLs should work on the connected Android device.
+
+  exp://172.18.22.209:19000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  To run the app with live reloading, choose one of:
+  • Scan the QR code above with the Expo app (Android) or the Camera app (iOS).
+  • Press a for Android emulator.
+  • Press e to send a link to your phone with email.
+  • Press s to sign in and enable more options.
+
+Press ? to show a list of all available commands.
+Logs for your project will appear below. Press Ctrl+C to exit.
+Opening on Android device
+Tunnel ready.
+We noticed your tunnel is having issues. This may be due to intermittent problems with our tunnel provider. If you have trouble connecting to your app, try to Restart the project, or switch Host to LAN.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ start: `expo start`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the @ start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Pritam\AppData\Roaming\npm-cache\_logs\2019-09-07T07_15_14_067Z-debug.log
+
+E:\Code\Java\ReactNative\HelloWorld>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Microsoft Windows [Version 10.0.16299.98]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+E:\Code\Java\ReactNative\HelloWorld>npm start
+
+> @ start E:\Code\Java\ReactNative\HelloWorld
+> expo start
+
+Starting project at E:\Code\Java\ReactNative\HelloWorld
+Expo DevTools is running at http://localhost:19002
+Opening DevTools in the browser... (press shift-d to disable)
+Starting Metro Bundler on port 19001.
+Successfully ran `adb reverse`. Localhost URLs should work on the connected Android device.
+
+  exp://172.18.22.209:19000
+
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+Trying to open the project on Android...
+Opening on Android device
+
+Press ? to show a list of all available commands.
+Trying to open the project on Android...
+Opening on Android device
+
+Trying to open the project in iOS simulator...
+Can't determine id of Simulator app; the Simulator is most likely not installed on this machine { Error: spawn osascript ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:19)
+    at onErrorNT (internal/child_process.js:415:16)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  errno: 'ENOENT',
+  code: 'ENOENT',
+  syscall: 'spawn osascript',
+  path: 'osascript',
+  spawnargs: [ '-e', 'id of app "Simulator"' ],
+  cmd: 'osascript -e id of app "Simulator"' }
+Simulator not installed. Please visit https://developer.apple.com/xcode/download/ to download Xcode and the iOS simulator. If you already have the latest version of Xcode installed, you may have to run the command `sudo xcode-select -s /Applications/Xcode.app`.
+
+Press ? to show a list of all available commands.
+Starting Metro Bundler on port 19001.
+Successfully ran `adb reverse`. Localhost URLs should work on the connected Android device.
+Tunnel ready.
+Finished building JavaScript bundle in 11604ms.
+Metro Bundler is now running in development mode.
+Please reload the project in the Expo app for the change to take effect.
+
+Press ? to show a list of all available commands.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ start: `expo start`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the @ start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Pritam\AppData\Roaming\npm-cache\_logs\2019-09-07T07_35_15_574Z-debug.log
+
+E:\Code\Java\ReactNative\HelloWorld>npm start
+
+> @ start E:\Code\Java\ReactNative\HelloWorld
+> expo start
+
+Starting project at E:\Code\Java\ReactNative\HelloWorld
+Expo DevTools is running at http://localhost:19002
+Opening DevTools in the browser... (press shift-d to disable)
+Starting Metro Bundler on port 19001.
+Successfully ran `adb reverse`. Localhost URLs should work on the connected Android device.
+Tunnel ready.
+
+  exp://172.18.22.209:19000
+
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+
+  To run the app with live reloading, choose one of:
+  • Scan the QR code above with the Expo app (Android) or the Camera app (iOS).
+  • Press a for Android emulator.
+  • Press e to send a link to your phone with email.
+  • Press s to sign in and enable more options.
+
+Press ? to show a list of all available commands.
+Logs for your project will appear below. Press Ctrl+C to exit.
+Optimizing assets...
+No assets optimized. Everything is fully compressed!
+An Expo user account is required to proceed.
+? How would you like to authenticate? (Use arrow keys)
+> Make a new Expo account
+  Log in with an existing Expo account
+Finished building JavaScript bundle in 2818ms.
+Metro Bundler is now running in development mode.
+Please reload the project in the Expo app for the change to take effect.
+
+Press ? to show a list of all available commands.
+Metro Bundler is now running in production mode.
+Please reload the project in the Expo app for the change to take effect.
+
+Press ? to show a list of all available commands.
+We noticed your tunnel is having issues. This may be due to intermittent problems with our tunnel provider. If you have trouble connecting to
+your app, try to Restart the project, or switch Host to LAN.
+An Expo user account is required to proceed.
+? How would you like to authenticate? (Use arrow keys)
+> Make a new Expo account
+  Log in with an existing Expo account
+  Cancel An Expo user account is required to proceed.
+? How would you like to authenticate? (Use arrow keys)
+> Make a new Expo account
+  Log in with an existing Expo account
+  Cancel (node:4948) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 keypress listeners added. Use emitter.setMaxL? How would you like to authenticate? Log in with an existing Expo account
+? Password: [hidden]
+? Password: [hidden]
+? Username/Email Address: kp
+? Password: [input is hidden] ? Username/Email Address: ? Username/Email Address: ? Username/Email Address: User doesnt exist in database.
+User doesnt exist in database.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ start: `expo start`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the @ start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Pritam\AppData\Roaming\npm-cache\_logs\2019-09-07T17_53_43_589Z-debug.log
+
+E:\Code\Java\ReactNative\HelloWorld>expo login
+? Username/Email Address: pritamkhose
+? Password: [hidden]
+
+Success. You are now logged in as pritamkhose.
+
+E:\Code\Java\ReactNative\HelloWorld>npm start
+
+> @ start E:\Code\Java\ReactNative\HelloWorld
+> expo start
+
+Starting project at E:\Code\Java\ReactNative\HelloWorld
+Expo DevTools is running at http://localhost:19002
+Opening DevTools in the browser... (press shift-d to disable)
+Building iOS bundle
+Building iOS bundle
+Building iOS bundle
+connect ECONNREFUSED 127.0.0.1:19001
+connect ECONNREFUSED 127.0.0.1:19001
+connect ECONNREFUSED 127.0.0.1:19001
+Opening on Android device
+Starting Metro Bundler on port 19001.
+Successfully ran `adb reverse`. Localhost URLs should work on the connected Android device.
+Tunnel ready.
+
+  exp://172.18.22.209:19000
+
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+
+  To run the app with live reloading, choose one of:
+  • Sign in as @pritamkhose in Expo Client on Android or iOS. Your projects will automatically appear in the "Projects" tab.
+  • Scan the QR code above with the Expo app (Android) or the Camera app (iOS).
+  • Press a for Android emulator.
+  • Press e to send a link to your phone with email.
+
+Press ? to show a list of all available commands.
+Logs for your project will appear below. Press Ctrl+C to exit.
+Opening on Android device
+EBUSY: resource busy or locked, open 'C:\Users\Pritam\AppData\Local\Temp\metro-cache\ac\20e9a6339afcfe3dce92c28b66cfab393e0e4f0839b5e3887346b587ac1fc172fb9b8a'
+Failed building JavaScript bundle.
+EBUSY: resource busy or locked, open 'C:\Users\Pritam\AppData\Local\Temp\metro-cache\ac\20e9a6339afcfe3dce92c28b66cfab393e0e4f0839b5e3887346b587ac1fc172fb9b8a'
+Failed building JavaScript bundle.
+EBUSY: resource busy or locked, open 'C:\Users\Pritam\AppData\Local\Temp\metro-cache\ac\20e9a6339afcfe3dce92c28b66cfab393e0e4f0839b5e3887346b587ac1fc172fb9b8a'
+Failed building JavaScript bundle.
+Opening on Android device
+Finished building JavaScript bundle in 63457ms.
+Running application on Android SDK built for x86.
+Optimizing assets...
+No assets optimized. Everything is fully compressed!
+Building iOS bundle
+Building Android bundle
+Building JavaScript bundle [====================================================================================================] 100%Finished building JavaScript bundle in 50951ms.
+Finished building JavaScript bundle in 80ms.
+Analyzing assets
+Finished building JavaScript bundle in 11534ms.
+(node:5788) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 change listeners added. Use emitter.setMaxListeners()
+to increase limit
+
+Building JavaScript bundle [====================================================================================================] 100%Finished building JavaScript bundle in 9271ms.
+Uploading assets
+No assets changed, skipped.
+Processing asset bundle patterns:
+- E:\Code\Java\ReactNative\HelloWorld\**\*
+Uploading JavaScript bundles
+Opening on Android device
+Optimizing assets...
+No assets optimized. Everything is fully compressed!
+Building iOS bundle
+Building Android bundle
+Finished building JavaScript bundle in 46ms.
+Finished building JavaScript bundle in 1ms.
+Analyzing assets
+Finished building JavaScript bundle in 2240ms.
+Finished building JavaScript bundle in 2136ms.
+Uploading assets
+No assets changed, skipped.
+Processing asset bundle patterns:
+- E:\Code\Java\ReactNative\HelloWorld\**\*
+Uploading JavaScript bundles
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ start: `expo start`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the @ start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Pritam\AppData\Roaming\npm-cache\_logs\2019-09-07T18_33_16_043Z-debug.log
+
+E:\Code\Java\ReactNative\HelloWorld>expo build:android
+Your project must have an Android package set in app.json
+See https://docs.expo.io/versions/latest/distribution/building-standalone-apps/#2-configure-appjson
+
+E:\Code\Java\ReactNative\HelloWorld>npm run eject
+
+> @ eject E:\Code\Java\ReactNative\HelloWorld
+> expo eject
+
+Your git working tree is clean
+To revert the changes from ejecting later, you can use these commands:
+  git clean --force && git reset --hard
+
+? How would you like to eject your app?
+  Read more: https://docs.expo.io/versions/latest/expokit/eject/ ExpoKit
+Fetching the user profile failed
+socket hang up
+An Expo user account is required to proceed.
+? How would you like to authenticate? Log in with an existing Expo account
+? You are already logged in as pritamkhose. Log in as new user? No
+Skipping iOS because you are not running macOS.
+? What would you like your Android package name to be? com.pritam.helloworld
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+(node:18920) UnhandledPromiseRejectionWarning: Error: spawn /bin/cp ENOENT
+    at notFoundError (C:\Users\Pritam\AppData\Roaming\npm\node_modules\expo-cli\node_modules\cross-spawn\lib\enoent.js:6:26)
+    at verifyENOENT (C:\Users\Pritam\AppData\Roaming\npm\node_modules\expo-cli\node_modules\cross-spawn\lib\enoent.js:40:16)
+    at ChildProcess.cp.emit (C:\Users\Pritam\AppData\Roaming\npm\node_modules\expo-cli\node_modules\cross-spawn\lib\enoent.js:27:25)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:248:12)
+(node:18920) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:18920) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+> react-native-unimodules@0.5.2 postinstall E:\Code\Java\ReactNative\HelloWorld\node_modules\react-native-unimodules
+> node ./scripts/postinstall.js
+
+
+Successfully installed react-native-unimodules. This package contains core unimodules that are commonly depended on by other unimodules. You will need to configure your project before using other unimodules like expo-camera, expo-media-library and others.
+See configuration guide:
+  https://www.npmjs.com/package/react-native-unimodules/v/0.5.2
+
++ expokit@34.0.2
++ react-native-unimodules@0.5.2
++ react-native@0.59.8
+added 4 packages from 1 contributor, updated 1 package and audited 37706 packages in 379.761s
+found 11 low severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details
+Ejected successfully!
+
+E:\Code\Java\ReactNative\HelloWorld>expo build:android -t apk
+'expo build:android' is not supported for detached projects.
+
+E:\Code\Java\ReactNative\HelloWorld>npm expo build:android -t apk
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    completion, config, create, ddp, dedupe, deprecate,
+    dist-tag, docs, doctor, edit, explore, get, help,
+    help-search, hook, i, init, install, install-test, it, link,
+    list, ln, login, logout, ls, outdated, owner, pack, ping,
+    prefix, profile, prune, publish, rb, rebuild, repo, restart,
+    root, run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\Pritam\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.4.1 C:\Program Files\nodejs\node_modules\npm
+
+Did you mean this?
+    repo
+
+E:\Code\Java\ReactNative\HelloWorld>npm expo build:android
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    completion, config, create, ddp, dedupe, deprecate,
+    dist-tag, docs, doctor, edit, explore, get, help,
+    help-search, hook, i, init, install, install-test, it, link,
+    list, ln, login, logout, ls, outdated, owner, pack, ping,
+    prefix, profile, prune, publish, rb, rebuild, repo, restart,
+    root, run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\Pritam\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.4.1 C:\Program Files\nodejs\node_modules\npm
+
+Did you mean this?
+    repo
+
+E:\Code\Java\ReactNative\HelloWorld>cd android
+
+E:\Code\Java\ReactNative\HelloWorld\android>gradlew bundleRelease
+'gradlew' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\ReactNative\HelloWorld\android>gradlew bundleRelease
+'gradlew' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\ReactNative\HelloWorld\android>expo build:android
+Can't read JSON file: E:\Code\Java\ReactNative\HelloWorld\android\app.json
+└─ Cause: Error: ENOENT: no such file or directory, open 'E:\Code\Java\ReactNative\HelloWorld\android\app.json'
+There is an error with your project. See above logs for information.
+Set EXPO_DEBUG=true in your env to view the stack trace.
+- Making sure project is set up correctly...
+E:\Code\Java\ReactNative\HelloWorld\android>cd ..
+
+E:\Code\Java\ReactNative\HelloWorld>expo build:android
+'expo build:android' is not supported for detached projects.
+
+E:\Code\Java\ReactNative\HelloWorld>npm start
+
+> @ start E:\Code\Java\ReactNative\HelloWorld
+> expo start
+
+Starting project at E:\Code\Java\ReactNative\HelloWorld
+Expo DevTools is running at http://localhost:19002
+Starting Metro Bundler on port 19001.
+Successfully ran `adb reverse`. Localhost URLs should work on the connected Android device.
+Tunnel ready.
+Your native app is running at expbe4be72682a648ffa3705a7602f3d426://172.18.22.209:19000
+Logs for your project will appear below. Press Ctrl+C to exit.
+Optimizing assets...
+No assets optimized. Everything is fully compressed!
+Building iOS bundle
+Building Android bundle
+Building JavaScript bundle [====================================================================================================] 100%Finished building JavaScript bundle in 3401ms.
+Analyzing assets
+Building JavaScript bundle [====================================================================================================] 100%Finished building JavaScript bundle in 2285ms.
+Finished building JavaScript bundle in 2135ms.
+Finished building JavaScript bundle in 1860ms.
+Uploading assets
+No assets changed, skipped.
+Processing asset bundle patterns:
+- E:\Code\Java\ReactNative\HelloWorld\**\*
+Uploading JavaScript bundles
+{"name":"xdl-detach","hostname":"DESKTOP-EOAT2I2","pid":12876,"level":30,"buildPhase":"reading manifest","msg":"Using manifest: {\"android\":{\"package\":\"com.pritam.helloworld\",\"publishBundlePath\":\"android\\\\app\\\\src\\\\main\\\\assets\\\\shell-app.bundle\",\"publishManifestPath\":\"android\\\\app\\\\src\\\\main\\\\assets\\\\shell-app-manifest.json\"},\"bundledAssets\":[\"asset_3a2ba31570920eeb9b1d217cabe58315.ttf\",\"asset_744ce60078c17d86006dd0edabcd59a7.ttf\",\"asset_140c53a7643ea949007aa9a282153849.ttf\",\"asset_6beba7e6834963f7f171d3bdd075c915.ttf\",\"asset_b06871f281fee6b241d60582ae9369b9.ttf\",\"asset_2e562d4ebf15395f00bc738738f79291.ttf\",\"asset_872545dde71de3842234bf6afe80c4cb.ttf\",\"asset_c6aef942e3668158ec29d4adcb2e768f.ttf\",\"asset_e20945d7c929279ef7a6f1db184a4470.ttf\",\"asset_b2e0fc821c6886fb3940f85a3320003e.ttf\",\"asset_5a293a273bee8d740a045d9922b9a9ae.ttf\",\"asset_a37b0c01c0baf1888ca812cc0508f6e2.ttf\",\"asset_8e7f807ef943bff1f6d3c2c6e0f3769e.ttf\",\"asset_d2285965fe34b05465047401b8595dd0.ttf\",\"asset_5cdf883b18a5651a29a4d1ef276d2457.ttf\"],\"dependencies\":[\"expo\",\"expokit\",\"react\",\"react-dom\",\"react-native\",\"react-native-unimodules\",\"react-native-web\"],\"description\":\"HelloWorld\",\"detach\":{\"androidExpoViewUrl\":\"https://s3.amazonaws.com/exp-exponent-view-code/android-v2.12.2-sdk34.0.0-767c7d3b-87b6-4f80-a9af-92ce67e2a49d.tar.gz\"},\"icon\":\"./assets/icon.png\",\"iconUrl\":\"https://d1wp6m56sqw74a.cloudfront.net/~assets/f82b34f900882c5120a1bfbf6df22a27\",\"ios\":{\"supportsTablet\":true},\"isDetached\":true,\"locales\":{},\"name\":\"HelloWorld\",\"orientation\":\"portrait\",\"platforms\":[\"ios\",\"android\",\"web\"],\"privacy\":\"public\",\"scheme\":\"expbe4be72682a648ffa3705a7602f3d426\",\"sdkVersion\":\"34.0.0\",\"slug\":\"HelloWorld\",\"splash\":{\"backgroundColor\":\"#ffffff\",\"image\":\"./assets/splash.png\",\"imageUrl\":\"https://d1wp6m56sqw74a.cloudfront.net/~assets/43ec0dcbe5a156bf9e650bb8c15e7af6\",\"resizeMode\":\"contain\"},\"updates\":{\"fallbackToCacheTimeout\":0},\"version\":\"1.0.0\",\"id\":\"@pritamkhose/HelloWorld\",\"revisionId\":\"1.0.0-r.RKdXa6mZZx\",\"publishedTime\":\"2019-09-07T19:07:42.755Z\",\"commitTime\":\"2019-09-07T19:07:42.792Z\",\"bundleUrl\":\"https://d1wp6m56sqw74a.cloudfront.net/%40pritamkhose%2FHelloWorld%2F1.0.0%2F892a2ef9608adcf02d443b2c3e10f806-34.0.0-android.js\",\"releaseChannel\":\"default\",\"hostUri\":\"exp.host/@pritamkhose/HelloWorld\"}","time":"2019-09-07T19:07:46.795Z","id":"c72bbbb0-d1a2-11e9-aed5-477a429cebae","v":0}
+{"name":"xdl-detach","hostname":"DESKTOP-EOAT2I2","pid":12876,"level":30,"buildPhase":"reading manifest","msg":"Using manifest: {\"android\":{\"package\":\"com.pritam.helloworld\",\"publishBundlePath\":\"android\\\\app\\\\src\\\\main\\\\assets\\\\shell-app.bundle\",\"publishManifestPath\":\"android\\\\app\\\\src\\\\main\\\\assets\\\\shell-app-manifest.json\"},\"bundledAssets\":[\"asset_3a2ba31570920eeb9b1d217cabe58315.ttf\",\"asset_744ce60078c17d86006dd0edabcd59a7.ttf\",\"asset_140c53a7643ea949007aa9a282153849.ttf\",\"asset_6beba7e6834963f7f171d3bdd075c915.ttf\",\"asset_b06871f281fee6b241d60582ae9369b9.ttf\",\"asset_2e562d4ebf15395f00bc738738f79291.ttf\",\"asset_872545dde71de3842234bf6afe80c4cb.ttf\",\"asset_c6aef942e3668158ec29d4adcb2e768f.ttf\",\"asset_e20945d7c929279ef7a6f1db184a4470.ttf\",\"asset_b2e0fc821c6886fb3940f85a3320003e.ttf\",\"asset_5a293a273bee8d740a045d9922b9a9ae.ttf\",\"asset_a37b0c01c0baf1888ca812cc0508f6e2.ttf\",\"asset_8e7f807ef943bff1f6d3c2c6e0f3769e.ttf\",\"asset_d2285965fe34b05465047401b8595dd0.ttf\",\"asset_5cdf883b18a5651a29a4d1ef276d2457.ttf\"],\"dependencies\":[\"expo\",\"expokit\",\"react\",\"react-dom\",\"react-native\",\"react-native-unimodules\",\"react-native-web\"],\"description\":\"HelloWorld\",\"detach\":{\"androidExpoViewUrl\":\"https://s3.amazonaws.com/exp-exponent-view-code/android-v2.12.2-sdk34.0.0-767c7d3b-87b6-4f80-a9af-92ce67e2a49d.tar.gz\"},\"icon\":\"./assets/icon.png\",\"iconUrl\":\"https://d1wp6m56sqw74a.cloudfront.net/~assets/f82b34f900882c5120a1bfbf6df22a27\",\"ios\":{\"supportsTablet\":true},\"isDetached\":true,\"locales\":{},\"name\":\"HelloWorld\",\"orientation\":\"portrait\",\"platforms\":[\"ios\",\"android\",\"web\"],\"privacy\":\"public\",\"scheme\":\"expbe4be72682a648ffa3705a7602f3d426\",\"sdkVersion\":\"34.0.0\",\"slug\":\"HelloWorld\",\"splash\":{\"backgroundColor\":\"#ffffff\",\"image\":\"./assets/splash.png\",\"imageUrl\":\"https://d1wp6m56sqw74a.cloudfront.net/~assets/43ec0dcbe5a156bf9e650bb8c15e7af6\",\"resizeMode\":\"contain\"},\"updates\":{\"fallbackToCacheTimeout\":0},\"version\":\"1.0.0\",\"id\":\"@pritamkhose/HelloWorld\",\"revisionId\":\"1.0.0-r.RKdXa6mZZx\",\"publishedTime\":\"2019-09-07T19:07:42.755Z\",\"commitTime\":\"2019-09-07T19:07:42.792Z\",\"bundleUrl\":\"https://d1wp6m56sqw74a.cloudfront.net/%40pritamkhose%2FHelloWorld%2F1.0.0%2F4cae3ab7f60c080816b7f158fc109fd7-34.0.0-ios.js\",\"releaseChannel\":\"default\",\"hostUri\":\"exp.host/@pritamkhose/HelloWorld\"}","time":"2019-09-07T19:07:46.804Z","id":"c72d1b40-d1a2-11e9-aed5-477a429cebae","v":0}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ start: `expo start`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the @ start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Pritam\AppData\Roaming\npm-cache\_logs\2019-09-07T19_12_28_167Z-debug.log
+
+E:\Code\Java\ReactNative\HelloWorld>npm install -g expo-cli
+npm WARN deprecated joi@14.0.4: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade
+to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated joi@11.4.0: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade
+to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated hoek@4.2.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade
+to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated topo@2.0.2: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade
+to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated topo@3.0.3: This module has moved and is now available at @hapi/topo. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+npm WARN deprecated hoek@6.1.3: This module has moved and is now available at @hapi/hoek. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+C:\Users\Pritam\AppData\Roaming\npm\expo -> C:\Users\Pritam\AppData\Roaming\npm\node_modules\expo-cli\bin\expo.js
+C:\Users\Pritam\AppData\Roaming\npm\expo-cli -> C:\Users\Pritam\AppData\Roaming\npm\node_modules\expo-cli\bin\expo.js
+npm WARN ts-pnp@1.1.4 requires a peer of typescript@* but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-darwin-x64@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-darwin-x64@2.2.8: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-darwin-ia32@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-darwin-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-darwin-ia32@2.2.8: wanted {"os":"darwin","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-freebsd-ia32@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-freebsd-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-freebsd-ia32@2.2.8: wanted {"os":"freebsd","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-arm@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-linux-arm):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-arm@2.2.8: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-ia32@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-linux-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-ia32@2.2.8: wanted {"os":"linux","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-freebsd-x64@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-freebsd-x64@2.2.8: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-x64@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-linux-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-x64@2.2.8: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-win32-ia32@2.2.8-beta.1 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-win32-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-win32-ia32@2.2.8-beta.1: wanted {"os":"win32","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-sunos-x64@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-sunos-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-sunos-x64@2.2.8: wanted {"os":"sunos","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-arm64@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-linux-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-arm64@2.2.8: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/traveling-fastlane-darwin@1.9.11 (node_modules\expo-cli\node_modules\@expo\traveling-fastlane-darwin):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/traveling-fastlane-darwin@1.9.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\expo-cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ expo-cli@3.0.10
+updated 1 package in 265.909s
+
+E:\Code\Java\ReactNative\HelloWorld>npm expo build:android -t apk
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    completion, config, create, ddp, dedupe, deprecate,
+    dist-tag, docs, doctor, edit, explore, get, help,
+    help-search, hook, i, init, install, install-test, it, link,
+    list, ln, login, logout, ls, outdated, owner, pack, ping,
+    prefix, profile, prune, publish, rb, rebuild, repo, restart,
+    root, run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\Pritam\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.4.1 C:\Program Files\nodejs\node_modules\npm
+
+Did you mean this?
+    repo
+
+E:\Code\Java\ReactNative\HelloWorld>expo build:android -t apk
+'expo build:android' is not supported for detached projects.
+
+E:\Code\Java\ReactNative\HelloWorld>expo build:android
+'expo build:android' is not supported for detached projects.
+
+E:\Code\Java\ReactNative\HelloWorld>cd android
+
+E:\Code\Java\ReactNative\HelloWorld\android>./gradlew bundleRelease
+'.' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\ReactNative\HelloWorld\android>gradlew bundleRelease
+'gradlew' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\ReactNative\HelloWorld\android>gradlew bundleReleaseAar
+'gradlew' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\ReactNative\HelloWorld\android>gradlew bundleReleaseAar
+'gradlew' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\ReactNative\HelloWorld\android>gradlew bundleRelease
+'gradlew' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\ReactNative\HelloWorld\android>react-native run-android --variant=release
+Command `run-android` unrecognized. Make sure that you have run `npm install` and that you are inside a react-native project.
+
+E:\Code\Java\ReactNative\HelloWorld\android>npm react-native run-android --variant=release
+
+Usage: npm <command>
+
+where <command> is one of:
+    access, adduser, audit, bin, bugs, c, cache, ci, cit,
+    completion, config, create, ddp, dedupe, deprecate,
+    dist-tag, docs, doctor, edit, explore, get, help,
+    help-search, hook, i, init, install, install-test, it, link,
+    list, ln, login, logout, ls, outdated, owner, pack, ping,
+    prefix, profile, prune, publish, rb, rebuild, repo, restart,
+    root, run, run-script, s, se, search, set, shrinkwrap, star,
+    stars, start, stop, t, team, test, token, tst, un,
+    uninstall, unpublish, unstar, up, update, v, version, view,
+    whoami
+
+npm <command> -h  quick help on <command>
+npm -l            display full usage info
+npm help <term>   search for help on <term>
+npm help npm      involved overview
+
+Specify configs in the ini-formatted file:
+    C:\Users\Pritam\.npmrc
+or on the command line via: npm <command> --key value
+Config info can be viewed via: npm help config
+
+npm@6.4.1 C:\Program Files\nodejs\node_modules\npm
+
+
+E:\Code\Java\ReactNative\HelloWorld\android>gradlew assembleRelease
+'gradlew' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\ReactNative\HelloWorld\android>

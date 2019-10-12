@@ -1,0 +1,249 @@
+Microsoft Windows [Version 10.0.16299.98]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+E:\Code\Java\ReactNative\MyAwesomeProject>npm start
+
+> @ start E:\Code\Java\ReactNative\MyAwesomeProject
+> expo start
+
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│   There is a new version of expo-cli available (3.0.10).    │
+│   You are currently using expo-cli 3.0.9                    │
+│   Run `npm install -g expo-cli` to get the latest version   │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+Starting project at E:\Code\Java\ReactNative\MyAwesomeProject
+Expo DevTools is running at http://localhost:19002
+Opening DevTools in the browser... (press shift-d to disable)
+Starting Metro Bundler on port 19001.
+Successfully ran `adb reverse`. Localhost URLs should work on the connected Android device.
+
+  exp://172.18.22.209:19000
+
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        
+
+  To run the app with live reloading, choose one of:
+  • Scan the QR code above with the Expo app (Android) or the Camera app (iOS).
+  • Press a for Android emulator.
+  • Press e to send a link to your phone with email.
+  • Press s to sign in and enable more options.
+
+Press ? to show a list of all available commands.
+Logs for your project will appear below. Press Ctrl+C to exit.
+Tunnel ready.
+Downloading latest version of Expo
+Installing Expo on device
+Opening on Android device
+Finished building JavaScript bundle in 36249ms.
+Opening on Android device
+Finished building JavaScript bundle in 87ms.
+Running application on Android SDK built for x86.
+Finished building JavaScript bundle in 89ms.
+Running application on Android SDK built for x86.
+Running application on Redmi Note 5 Pro.
+Finished building JavaScript bundle in 72ms.
+Running application on Android SDK built for x86.
+Finished building JavaScript bundle in 77ms.
+Running application on Android SDK built for x86.
+Finished building JavaScript bundle in 134ms.
+Finished building JavaScript bundle in 53ms.
+Running application on Android SDK built for x86.
+Finished building JavaScript bundle in 150ms.
+Running application on Android SDK built for x86.
+Finished building JavaScript bundle in 641ms.
+Running application on Android SDK built for x86.
+Finished building JavaScript bundle in 204ms.
+Running application on Android SDK built for x86.
+Finished building JavaScript bundle in 129ms.
+Running application on Android SDK built for x86.
+Finished building JavaScript bundle in 173ms.
+Finished building JavaScript bundle in 191ms.
+Running application on Android SDK built for x86.
+Finished building JavaScript bundle in 136ms.
+Finished building JavaScript bundle in 239ms.
+Running application on Android SDK built for x86.
+Finished building JavaScript bundle in 121ms.
+Finished building JavaScript bundle in 334ms.
+Running application on Android SDK built for x86.
+Finished building JavaScript bundle in 125ms.
+Running application on Android SDK built for x86.
+Finished building JavaScript bundle in 229ms.
+Running application on Android SDK built for x86.
+Finished building JavaScript bundle in 161ms.
+Running application on Android SDK built for x86.
+Finished building JavaScript bundle in 103ms.
+Running application on Android SDK built for x86.
+
+[Unhandled promise rejection: Error: Unable to activate keep awake]
+- node_modules\react-native\Libraries\BatchedBridge\NativeModules.js:155:41 in createErrorFromErrorData
+- node_modules\react-native\Libraries\BatchedBridge\NativeModules.js:104:55 in <unknown>
+- ... 5 more stack frames from framework internals
+
+Finished building JavaScript bundle in 56ms.
+Finished building JavaScript bundle in 83ms.
+Running application on Android SDK built for x86.
+Running application on Redmi Note 5 Pro.
+
+Stopping packager...
+
+Stopping packager...
+Packager stopped.
+
+E:\Code\Java\ReactNative\MyAwesomeProject>keytool -genkeypair -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
+Enter keystore password:
+Re-enter new password:
+What is your first and last name?
+  [Unknown]:  pritam khose
+What is the name of your organizational unit?
+  [Unknown]:  pritam
+What is the name of your organization?
+  [Unknown]:  pritam
+What is the name of your City or Locality?
+  [Unknown]:  pune
+What is the name of your State or Province?
+  [Unknown]:  maharashtra
+What is the two-letter country code for this unit?
+  [Unknown]:  IN
+Is CN=pritam khose, OU=pritam, O=pritam, L=pune, ST=maharashtra, C=IN correct?
+  [no]:  yes
+
+Generating 2,048 bit RSA key pair and self-signed certificate (SHA256withRSA) with a validity of 10,000 days
+        for: CN=pritam khose, OU=pritam, O=pritam, L=pune, ST=maharashtra, C=IN
+Enter key password for <my-key-alias>
+        (RETURN if same as keystore password):
+Re-enter new password:
+[Storing my-upload-key.keystore]
+
+Warning:
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore my-upload-key.keystore -destkeystore my-upload-key.keystore -deststoretype pkcs12".
+
+E:\Code\Java\ReactNative\MyAwesomeProject>npm run eject
+
+> @ eject E:\Code\Java\ReactNative\MyAwesomeProject
+> expo eject
+
+Warning! Your git working tree is dirty.
+It's recommended to commit all your changes before proceeding,
+so you can revert the changes made by this command if necessary.
+
+? How would you like to eject your app?
+  Read more: https://docs.expo.io/versions/latest/expokit/eject/ Bare
+We have a couple of questions to ask you about how you'd like to name your app:
+? What should your app appear as on a user's home screen? My AwesomeProject
+? What should your Android Studio and Xcode projects be called? MyAwesomeProject
+Writing app.json...
+Wrote to app.json, please update it manually in the future.
+Successfully copied template native code.
+Updating your package.json...
+Your package.json is up to date!
+Adding entry point...
+Added new entry points!
+Note that using `npm start` will now require you to run Xcode and/or Android Studio to build the native code for your project.
+Removing node_modules...
+Installing new packages...
+> npm install
+npm ERR! path E:\Code\Java\ReactNative\MyAwesomeProject\node_modules\expo\npm-shrinkwrap.json
+npm ERR! code EPERM
+npm ERR! errno -4048
+npm ERR! syscall open
+npm ERR! Error: EPERM: operation not permitted, open 'E:\Code\Java\ReactNative\MyAwesomeProject\node_modules\expo\npm-shrinkwrap.json'
+npm ERR!  { [Error: EPERM: operation not permitted, open 'E:\Code\Java\ReactNative\MyAwesomeProject\node_modules\expo\npm-shrinkwrap.json']
+npm ERR!   cause:
+npm ERR!    { Error: EPERM: operation not permitted, open 'E:\Code\Java\ReactNative\MyAwesomeProject\node_modules\expo\npm-shrinkwrap.json'
+npm ERR!      errno: -4048,
+npm ERR!      code: 'EPERM',
+npm ERR!      syscall: 'open',
+npm ERR!      path:
+npm ERR!       'E:\\Code\\Java\\ReactNative\\MyAwesomeProject\\node_modules\\expo\\npm-shrinkwrap.json' },
+npm ERR!   isOperational: true,
+npm ERR!   stack:
+npm ERR!    'Error: EPERM: operation not permitted, open \'E:\\Code\\Java\\ReactNative\\MyAwesomeProject\\node_modules\\expo\\npm-shrinkwrap.json\'',
+npm ERR!   errno: -4048,
+npm ERR!   code: 'EPERM',
+npm ERR!   syscall: 'open',
+npm ERR!   path:
+npm ERR!    'E:\\Code\\Java\\ReactNative\\MyAwesomeProject\\node_modules\\expo\\npm-shrinkwrap.json' }
+npm ERR!
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It's possible that the file was already in use (by a text editor or antivirus),
+npm ERR! or that you lack permissions to access it.
+npm ERR!
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator (though this is not recommended).
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Pritam\AppData\Roaming\npm-cache\_logs\2019-09-07T06_14_40_549Z-debug.log
+
+npm exited with non-zero code: 4294963248
+Set EXPO_DEBUG=true in your env to view the stack trace.
+Access is denied.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ eject: `expo eject`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the @ eject script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Pritam\AppData\Roaming\npm-cache\_logs\2019-09-07T06_14_41_230Z-debug.log
+
+E:\Code\Java\ReactNative\MyAwesomeProject>
+E:\Code\Java\ReactNative\MyAwesomeProject>cd android
+
+E:\Code\Java\ReactNative\MyAwesomeProject\android>./gradlew bundleRelease
+'.' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\ReactNative\MyAwesomeProject\android>.gradlew bundleRelease
+'.gradlew' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\Code\Java\ReactNative\MyAwesomeProject\android>gradlew bundleRelease
+Starting a Gradle Daemon, 2 incompatible Daemons could not be reused, use --status for details
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Settings file 'E:\Code\Java\ReactNative\MyAwesomeProject\android\settings.gradle' line: 1
+
+* What went wrong:
+A problem occurred evaluating settings 'android'.
+> Could not read script 'E:\Code\Java\ReactNative\MyAwesomeProject\node_modules\react-native-unimodules\gradle.groovy' as it does not exist.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+
+E:\Code\Java\ReactNative\MyAwesomeProject\android>
