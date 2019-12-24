@@ -44,6 +44,8 @@ const MainNavigator = createStackNavigator({
   AnimatedExample: { screen: AnimatedExample },
   RNAnimatedExample: { screen: RNAnimatedExample },
   GesturesExample: { screen: GesturesExample },
+}, {
+  initialRouteName: 'Home',
 });
 
 // https://facebook.github.io/react-native/docs/0.60/navigation
