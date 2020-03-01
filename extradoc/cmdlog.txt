@@ -1,142 +1,185 @@
 Microsoft Windows [Version 10.0.16299.98]
 (c) 2017 Microsoft Corporation. All rights reserved.
 
-E:\Code\Java\ReactNative\reactnativeexpressslack\reactnativeexpress>expo build:android
-Error: node_modules directory is missing. Please run `npm install` in your project directory.
-There is an error with your project. See above logs for information.
-Set EXPO_DEBUG=true in your env to view the stack trace.
-- Making sure project is set up correctly...
-E:\Code\Java\ReactNative\reactnativeexpressslack\reactnativeexpress>npm install
-npm WARN deprecated core-js@1.2.7: core-js@<2.6.8 is no longer maintained. Please, upgrade to core-js@3 or at least to actual version of core-js@2.
+E:\Code\ReactNative\Expo>npm install --global expo-cli
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated joi@14.0.4: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated iltorb@2.4.5: The zlib module provides APIs for brotli compression/decompression starting with Node.js v10.16.0, please use it over iltorb
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+npm WARN deprecated joi@11.4.0: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated hoek@4.2.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated topo@2.0.2: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated topo@3.0.3: This module has moved and is now available at @hapi/topo. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+npm WARN deprecated hoek@6.1.3: This module has moved and is now available at @hapi/hoek. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+C:\Users\Pritam\AppData\Roaming\npm\expo -> C:\Users\Pritam\AppData\Roaming\npm\node_modules\expo-cli\bin\expo.js
+C:\Users\Pritam\AppData\Roaming\npm\expo-cli -> C:\Users\Pritam\AppData\Roaming\npm\node_modules\expo-cli\bin\expo.js
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/traveling-fastlane-darwin@1.12.1 (node_modules\expo-cli\node_modules\@expo\traveling-fastlane-darwin):
+  build [=======             ] 35%  build [========            ] 40%  build [=================== ] 95%  build [====================] 100%
+npm WARN @expo/image-utils@0.2.12 requires a peer of sharp-cli@^1.10.0 but none is installed. You must install peer depe
+Build completed in 10.761s
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-darwin-x64@2.2.8 (node_modules\expo-cli\node_modules\@ex
+po\ngrok-bin-darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-darwin-x64@2.2.8: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-freebsd-ia32@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-freebsd-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-freebsd-ia32@2.2.8: wanted {"os":"freebsd","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-freebsd-x64@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-freebsd-x64@2.2.8: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-arm@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-linux-arm):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-arm@2.2.8: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-darwin-ia32@2.2.8 (node_modules\expo-cli\node_modules\@e  build [=====               ] 25%
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-darwin-ia32@2.2.8: wanted {"os":"darwin","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-x64@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-linux-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-x64@2.2.8: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-sunos-x64@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-sunos-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-sunos-x64@2.2.8: wanted {"os":"sunos","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-ia32@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-linux-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-ia32@2.2.8: wanted {"os":"linux","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-win32-ia32@2.2.8-beta.1 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-win32-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-win32-ia32@2.2.8-beta.1: wanted {"os":"win32","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-arm64@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-linux-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-arm64@2.2.8: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules\expo-cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules\expo-cli\node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
 
-> core-js@2.6.9 postinstall E:\Code\Java\ReactNative\reactnativeexpressslack\reactnativeexpress\node_modules\fbjs-scripts\node_modules\core-js> node scripts/postinstall || echo "ignore"
++ expo-cli@3.13.1
+added 2 packages from 2 contributors and updated 27 packages in 217.84s
+
+E:\Code\ReactNative\Expo>
+E:\Code\ReactNative\Expo>expo init
+? Choose a template: expo-template-blank
+? What is the name of your project? ReactNativeExpress
+Using npm to install packages. You can pass --yarn to use Yarn instead.
+Extracting project files...
+Customizing project...
+Initialized a git repository.
+Installing dependencies...
+> npm install
+npm WARN deprecated deep-assign@3.0.0: Check out `lodash.merge` or `merge-options` instead.
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+npm WARN deprecated core-js@1.2.7: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+
+> core-js@2.6.11 postinstall E:\Code\ReactNative\Expo\ReactNativeExpress\node_modules\fbjs-scripts\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
 
 Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
 
-The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
-> https://opencollective.com/core-js 
-> https://www.patreon.com/zloirock 
+The project needs your help! Please consider supporting of core-js on Open Collective or Patreon:
+> https://opencollective.com/core-js
+> https://www.patreon.com/zloirock
 
 Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
 
 
-> core-js@2.6.9 postinstall E:\Code\Java\ReactNative\reactnativeexpressslack\reactnativeexpress\node_modules\metro-babel-register\node_modules\core-js
-> node scripts/postinstall || echo "ignore"
-
-Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
-
-The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
-> https://opencollective.com/core-js 
-> https://www.patreon.com/zloirock 
-
-Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+> core-js@2.6.11 postinstall E:\Code\ReactNative\Expo\ReactNativeExpress\node_modules\metro-babel-register\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
 
 
-> core-js@2.6.9 postinstall E:\Code\Java\ReactNative\reactnativeexpressslack\reactnativeexpress\node_modules\metro\node_modules\core-js
-> node scripts/postinstall || echo "ignore"
-
-Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
-
-The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
-> https://opencollective.com/core-js 
-> https://www.patreon.com/zloirock 
-
-Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+> core-js@2.6.11 postinstall E:\Code\ReactNative\Expo\ReactNativeExpress\node_modules\metro\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
 
 
-> core-js@2.6.9 postinstall E:\Code\Java\ReactNative\reactnativeexpressslack\reactnativeexpress\node_modules\react-native\node_modules\core-js> node scripts/postinstall || echo "ignore"
+> core-js@2.6.11 postinstall E:\Code\ReactNative\Expo\ReactNativeExpress\node_modules\react-native-web\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
 
-Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
-
-The project needs your help! Please consider supporting of core-js on Open Collective or Patreon: 
-> https://opencollective.com/core-js 
-> https://www.patreon.com/zloirock 
-
-Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+  build [====                ] 20%
+> core-js@2.6.11 postinstall E:\Code\ReactNative\Expo\ReactNativeExpress\node_modules\react-native\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
 
 npm notice created a lockfile as package-lock.json. You should commit this file.
-npm WARN react-native-paper@2.16.0 requires a peer of react-native-vector-icons@* but none is installed. You must install peer dependencies yourself.
-npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
-npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
 
-added 873 packages from 446 contributors and audited 37443 packages in 434.538s
-found 11 low severity vulnerabilities
+added 789 packages from 472 contributors and audited 72888 packages in 224.475s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+found 4 low severity vulnerabilities
   run `npm audit fix` to fix them, or `npm audit` for details
 
-E:\Code\Java\ReactNative\reactnativeexpressslack\reactnativeexpress>npm audit fix
-npm WARN react-native-paper@2.16.0 requires a peer of react-native-vector-icons@* but none is installed. You must install peer dependencies yourself.
-npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
-npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
 
-up to date in 82.229s
-fixed 0 of 11 vulnerabilities in 37443 scanned packages
-  11 vulnerabilities required manual review and could not be updated
+Your project is ready at E:\Code\ReactNative\Expo\ReactNativeExpress
 
-E:\Code\Java\ReactNative\reactnativeexpressslack\reactnativeexpress>expo build:android
-Checking if there is a build in progress...
+To get started, you can type:
+
+  cd ReactNativeExpress
+  undefined start
 
 
-? Would you like to upload a keystore or have us generate one for you?
-If you don't know what this means, let us handle it! :)
- false
-Warning: Your project may contain unoptimized image assets. Smaller image sizes can improve app performance.
-To compress the images in your project, abort publishing and run expo optimize.
-Unable to find an existing Expo CLI instance for this directory, starting a new one...
+E:\Code\ReactNative\Expo>cd ReactNativeExpress
+
+E:\Code\ReactNative\Expo\ReactNativeExpress>expo start
+Starting project at E:\Code\ReactNative\Expo\ReactNativeExpress
+Expo DevTools is running at http://localhost:19002
+Opening DevTools in the browser... (press shift-d to disable)
 Starting Metro Bundler on port 19001.
 Tunnel ready.
-Publishing to channel 'default'...
-Building iOS bundle
-Finished building JavaScript bundle in 69873ms.
-Building Android bundle
-Analyzing assets
-Building JavaScript bundle [====================================================================================================] 100%Finished building JavaScript bundle in 58282ms.
-Finished building JavaScript bundle in 19125ms.
-Uploading assets
-Building JavaScript bundle [====================================================================================================] 100%Finished building JavaScript bundle in 11099ms.
-No assets changed, skipped.
-Uploading JavaScript bundles
-Published
-Your URL is
 
-https://exp.host/@pritamkhose/snack-909f7d31-1d27-412b-895b-ffe676f85726
-
-› Closing Expo server
-› Stopping Metro bundler
-Checking if this build already exists...
-
-Build started, it may take a few minutes to complete.
-You can check the queue length at https://expo.io/turtle-status
-
-You can monitor the build at
-
- https://expo.io/builds/674a08d5-a96e-46b8-9bbc-7d6532cd660b
-
-Waiting for build to complete. You can press Ctrl+C to exit.
-√ Build finished.
-Successfully built standalone app: https://expo.io/artifacts/56d8d9d8-69a2-4241-bacf-b7ad21d53041
-
-E:\Code\Java\ReactNative\reactnativeexpressslack\reactnativeexpress>expo fetch:android:keystore
-Keystore credentials
-  Keystore password: 1a28661e17a44cdb979ebf4e9875938e
-  Key alias:         QHByaXRhbWtob3NlL3NuYWNrLTkwOWY3ZDMxLTFkMjctNDEyYi04OTViLWZmZTY3NmY4NTcyNg==
-  Key password:      578b3cba5e3a44a18d59ade613bbc693
-
-  Path to Keystore:  E:\Code\Java\ReactNative\reactnativeexpressslack\reactnativeexpress\snack-909f7d31-1d27-412b-895b-ffe676f85726.jks
-
-E:\Code\Java\ReactNative\reactnativeexpressslack\reactnativeexpress>
-
-E:\Code\Java\ReactNative\reactnativeexpressslack\reactnativeexpress>expo build:ios
-Your application icon can't have transparency if you wish to upload your app to Apple Store.
-
-E:\Code\Java\ReactNative\reactnativeexpressslack\reactnativeexpress>expo build:ios
-Checking if there is a build in progress...
-
-Please enter your Apple Developer Program account credentials. These credentials are needed to manage certificates, keys and provisioning
-profiles in your Apple Developer account.
-The password is only used to authenticate with Apple and never stored.
-? Apple ID:
-E:\Code\Java\ReactNative\reactnativeexpressslack\reactnativeexpress>
+  exp://192.168.43.11:19000
 
 
 
 
+
+
+
+
+
+  build [===                 ] 15%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  To run the app with live reloading, choose one of:
+  • Sign in as @pritamkhose in Expo client on Android or iOS. Your projects will automatically appear in the
+    "Projects" tab.
+  • Scan the QR code above with the Expo app (Android) or the Camera app (iOS).
+  • Press a for Android emulator, or w to run on web.
+  • Press e to send a link to your phone with email.
+
+ Expo  Press ? to show a list of all available commands.
+Logs for your project will appear below. Press Ctrl+C to exit.
+ web  Starting Webpack on port 19006 in development mode.
+  build [==                  ] 10%
+
+Compiling...
+
+  build [====================] 100%
+
+Build completed in 1.295s
+┌───────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                           │
+│   Expo web is in beta, please report any bugs or missing features on the Expo repo.       │
+│   You can follow the V1 release for more info: https://github.com/expo/expo/issues/6782   │
+│                                                                                           │
+└───────────────────────────────────────────────────────────────────────────────────────────┘
+
+ React  You can now view Blank Template in the browser.
+
+  Local:            http://localhost:19006/
+  On Your Network:  http://192.168.43.11:19006/
+
+Note that the development build is not optimized.
+
+ › To create a production build, run expo build:web
+ › Press Ctrl+C to exit.
+
+Finished building JavaScript bundle in 38741ms.
+Running application on Redmi Note 5 Pro.
