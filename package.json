@@ -8,7 +8,8 @@
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
-    "androidbuild": "expo build:android -t apk",
+    "androidbuild": "expo build:android",
+    "androidapk": "expo build:android -t apk",
     "ios": "expo start --ios",
     "iosbuild": "expo build:ios",
     "web": "expo start --web",

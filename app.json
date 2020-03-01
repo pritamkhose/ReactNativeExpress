@@ -32,6 +32,7 @@
       "package": "com.pritam.reactnativeexpress",
       "publishBundlePath": "android\\app\\src\\main\\assets\\shell-app.bundle",
       "publishManifestPath": "android\\app\\src\\main\\assets\\shell-app-manifest.json"
-    }
+    },
+    "githubUrl": "https://github.com/pritamkhose/ReactNativeExpress"
   }
 }
